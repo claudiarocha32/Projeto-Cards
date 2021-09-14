@@ -1,0 +1,110 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ccc;
+    margin: 0;
+}
+
+.hero{
+    background-image: url(../CSS/imagens/principal.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+}
+
+.hero nav ul{
+    text-align: right;
+    margin: 20px 30px 0 0;
+}
+.hero nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 10px;
+    border: 1px solid white;
+}
+
+.hero nav a{
+    background: rgba(0,0,0, 0.3);
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;}
+
+.hero nav a:hover{
+    background: rgba(0,0,0,0.6)
+}
+.hero-content{
+    text-align: center;
+    color: white;
+    margin-top: 175px;
+}
+
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 45px;
+    text-shadow: 3px 3px 3px #333;
+    }
+
+    .hero-content p{
+        background:rgba(0,0,0,0.8) ;
+        display: inline-block;
+        padding: 15px;
+        border-bottom: 2px solid white;
+    }
+    
+    main{
+        width: 80%;
+        margin: auto;
+    }
+    
+    
+    .content-section{
+        background-color:white;
+        padding: 15px;
+        margin-top: 15px;
+    display: block;
+    list-style: none;
+    margin-left: 10px;
+    overflow: auto;
+    }
+    
+    .card{
+        width: 32%;
+        float: left;
+        box-sizing: border-box;
+    }
+    .card-1, .card-2{
+        margin-right: 2%;
+    }
+    .card img{
+        width: 100%;
+        display: block;
+    }
+    .card p{
+        background-color: rgb(87, 76, 76);
+        color: white;
+        margin: 0%;
+        padding: 15px;
+        text-transform: uppercase;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+     
+    .content-header h2{
+        margin: 0%;
+        padding: auto;
+    }
+    .rodape{
+        background:#555;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align:center;
+        padding: 2px;
+        width: 80%;
+        margin: auto;
+    }
